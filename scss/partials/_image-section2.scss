@@ -26,17 +26,20 @@
     align-items: center;
     p{
         font-size: 2.5em;
-        font-weight: 400;
+        font-weight: 500;
         color: #f3f3f3;
     }
 }
 
 .bold-font{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 @media (max-width: 620px){
+    .image-section2{
+        background-position: top center;
+    }
     .text-box2{
         padding: 0 5%;
         p{

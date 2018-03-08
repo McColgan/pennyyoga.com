@@ -9,6 +9,7 @@
     position: fixed;
     border-bottom: 2px solid #080808;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
     h1{
         font-size: 1.8em;
         font-weight: 300;
@@ -46,8 +47,9 @@
     top: 5em;
     height: 0px;
     overflow: hidden;
-    border-bottom: 2px solid #080808;
-    border-left: 2px solid #080808;
+    //border-bottom: 2px solid #080808;
+    border-left: 1px solid #080808;
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     ul{
         margin: 0;
         padding: 0;
@@ -58,7 +60,7 @@
         height: 75vh;
         width: 14em;
         li{
-            border-top: 1px solid rgba(0, 0, 0, 0.25);
+            border-top: 1px solid rgba(79, 94, 193, 0.2);
             padding: 0;
             margin: 0;
             height: 100%;
@@ -93,37 +95,38 @@
             //background: rgba(0, 112, 0, 0.8);
             a{
                 //color: #080808;
-                font-weight: 800;
+                font-weight: 500;
+                color: #9241A8;
             }
         }
     }
 }
 .site nav a,
-.site-nav a:visited,
 .site-nav a:active{
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
     position:relative;
     transition:0.5s color ease;
     text-decoration:none;
-    color: #080808;
+    color: #9241A8;
 }
 .site-nav a:hover{
     color: #9241A8;
+    background: #ececec;
 }
 .site-nav a.before:before,
 .site-nav a.after:after{
     content: "";
-    transition:0.5s all ease;
+    transition: 0.8s all ease;
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
     position:absolute;
 }
 .site-nav a.before:before{
-    top: 0.7em;
+    top: 0.4em;
 }
 .site-nav a.after:after{
-    bottom: 0.7em;
+    bottom: 0.4em;
 }
 .site-nav a.before:before,
 .site-nav a.after:after{
@@ -152,9 +155,13 @@
         height: 5em;
         padding: 0;
         margin: 0;
+        border-bottom: none;
     }
     .social-media-header{
         right: 1em;
+    }
+    .site-nav a:hover{
+        background: none;
     }
     .site-nav{
         padding: 0;
@@ -165,7 +172,9 @@
         height: 5em;
         width: 100%;
         border-left: none;
+        border-bottom: none;
         //background: red;
+        box-shadow: none;
         ul{
             height: 100%;
             flex-direction: row;

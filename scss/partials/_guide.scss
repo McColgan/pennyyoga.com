@@ -21,19 +21,19 @@
         text-align: center;
         padding: 0;
         margin: 3em auto;
-        font-size: 1.8em;
+        font-size: 1.5em;
         font-weight: 200;
         max-width: 1000px;
-        width: 90%;
+        width: 80%;
     }
     h3{
         text-align: center;
         padding: 0;
         margin: 2em auto;
-        font-size: 1.8em;
+        font-size: 1.5em;
         font-weight: 200;
         max-width: 1000px;
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -59,21 +59,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    //box-shadow: inset 0px 0px 15px 4px rgba(0,0,0,0.6);
     //border: 2px solid rgba(79, 94, 193, 0.1);
 }
 .content-box{
     font-size: 1.1em;
-    font-weight: 300;
+    font-weight: 200;
     margin: 0 auto;
     padding: 1em;
     width: 80%;
-    line-height: 1.6em;
+    line-height: 1.4em;
     background: rgba(146, 65, 168, 0.2);
+    //box-shadow: inset 0px 0px 15px 4px rgba(0,0,0,0.6);
     //border: 2px solid rgba(146, 65, 168, 0.1);
 }
 
 // MEDIA QUERIES
-
 @media (max-width: 900px){
     .guide{
         h1{
@@ -96,7 +97,6 @@
     }
     .content-box{
         width: auto;
-        text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -117,7 +117,6 @@
     }
     .content-box{
         font-size: 1em;
-        text-align: initial;
         font-weight: 200;
     }
 }

@@ -85,18 +85,19 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
 .about-box{
     //display: flex;
     align-items: center;
-    width: 45%;
+    width: 50%;
     height: auto;
     margin: 1em;
     padding: 0;
     //background: #693c3c;
+
     h1{
         margin: 0 0 0.5em 0;
         text-align: center;
@@ -119,15 +120,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    //border: 2px solid #4F5EC1;
+    //border: 3px solid #181818;
     //max-height: 400px;
+    -webkit-box-shadow: inset 12px 12px 25px -5px rgba(0,0,0,1);
+    -moz-box-shadow: inset 12px 12px 25px -5px rgba(0,0,0,1);
+    //box-shadow: inset 12px 12px 25px -5px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 10px 4px rgba(0,0,0,0.6);
+    width: 35%;
 }
 .profile-image{
     background-image: url(../images/yoga-mats.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    //border: 2px solid #9241A8;
+    //border: 3px solid #181818;
+    -webkit-box-shadow: inset -12px -12px 25px -5px rgba(0,0,0,1);
+    -moz-box-shadow: inset -12px -12px 25px -5px rgba(0,0,0,1);
+    //box-shadow: inset -12px -12px 25px -5px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 10px 4px rgba(0,0,0,0.6);
+    width: 35%;
 }
 
 
@@ -139,7 +150,7 @@
             font-size: 1.6em;
         }
         p{
-            font-size: 1em;
+            font-size: 0.9em;
         }
     }
 }
@@ -159,6 +170,7 @@
         }
         p{
             text-align: center;
+            font-size: 1em;
         }
     }
     .profile-image,
@@ -210,6 +222,9 @@
     .profile-image,
     .yoga-mats{
         width: 100%;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
     .about-box{
         p{

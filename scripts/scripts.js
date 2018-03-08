@@ -1,9 +1,10 @@
 $(document).ready(function(){
   $(window).scroll(function(){
-    parallax();
+    //parallax();
     linkSwitching();
   });
 
+ 
   // Smooth Scrolling
   var scrollLink = $('.scroll');
   scrollLink.click(function(e){
@@ -19,11 +20,11 @@ $(document).ready(function(){
   });
 
   // Parallax Effect
-  function parallax(){
+  /* function parallax(){
     var wScroll = $(window).scrollTop();
     
     $('.showcase-outer').css('background-position', 'center '+(wScroll*0.5)+'px');
-  }
+  } */
   // Link Switching
   function linkSwitching(){
     var scrollBarLocation = $(this).scrollTop();
