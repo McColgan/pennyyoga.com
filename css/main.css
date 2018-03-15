@@ -411,7 +411,7 @@ video {
   top: 0.2em;
   font-weight: 200;
   color: #f3f3f3;
-  text-shadow: 2px 2px 0px #9241A8;
+  text-shadow: 2px 4px 2px #9241A8;
   animation: 0.8s ease-in 0.75s normal forwards 1 fadein;
   -webkit-animation: 0.8s ease-in 0.75s normal forwards 1 fadein;
   opacity: 0; }
@@ -424,7 +424,7 @@ video {
   top: 3.7em;
   font-weight: 200;
   color: #f3f3f3;
-  text-shadow: 2px 2px 0px #4F5EC1;
+  text-shadow: 2px 4px 2px #4F5EC1;
   animation: 0.8s ease-in 2s normal forwards 1 fadein;
   -webkit-animation: 0.8s ease-in 2s normal forwards 1 fadein;
   opacity: 0; }
@@ -666,8 +666,6 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  -webkit-box-shadow: inset 12px 12px 25px -5px black;
-  -moz-box-shadow: inset 12px 12px 25px -5px black;
   box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.6);
   width: 35%; }
 
@@ -676,8 +674,6 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  -webkit-box-shadow: inset -12px -12px 25px -5px black;
-  -moz-box-shadow: inset -12px -12px 25px -5px black;
   box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.6);
   width: 35%; }
 

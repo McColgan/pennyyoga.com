@@ -17,7 +17,6 @@
     padding: 1em 0 0 0;
     text-align: center;
     color: #4b4b4b;
-    //color: rgba(146, 65, 168, 1);
 }
 .yoga-flower{
     position: relative;
@@ -40,7 +39,6 @@
     text-align: center;
     font-weight: 300;
     max-width: 1000px;
-    //background: rgba(146, 65, 168, 0.1);
     border-top: 5px solid #4F5EC1;
     border-bottom: 5px solid #4F5EC1;
     color: rgba(146, 65, 168, 1);
@@ -51,7 +49,6 @@
     margin: 1em auto;
     text-align: center;
     font-weight: 300;
-    //color: #5a5a5a;
     color: rgba(146, 65, 168, 1);
 }
 .bio{
@@ -63,7 +60,6 @@
     padding: 0;
     max-width: 1200px;
     text-align: center;
-    //background: #e9e9e9;
     color: #4b4b4b;
 }
 .about-section1,
@@ -72,7 +68,6 @@
     width: 90vw;
     max-width: 1200px;
     height: auto;
-    //background: #e9e9e9;
     //background: rgba(79, 94, 193, 0.1);
     padding: 0;
     margin: 4em auto;
@@ -81,7 +76,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    //background: red;
     padding: 0;
     margin: 0;
     display: flex;
@@ -90,20 +84,16 @@
 }
 
 .about-box{
-    //display: flex;
     align-items: center;
     width: 50%;
     height: auto;
     margin: 1em;
     padding: 0;
-    //background: #693c3c;
-
     h1{
         margin: 0 0 0.5em 0;
         text-align: center;
         font-weight: 300;
         font-size: 1.6em;
-        //color: #5a5a5a;
         color: rgba(146, 65, 168, 1);
     }
     p{
@@ -112,7 +102,6 @@
         font-size: 1em;
         line-height: 1.5em;
         color: #4b4b4b;
-        //text-align: center;
     }
 }
 .yoga-mats{
@@ -120,11 +109,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    //border: 3px solid #181818;
-    //max-height: 400px;
-    -webkit-box-shadow: inset 12px 12px 25px -5px rgba(0,0,0,1);
-    -moz-box-shadow: inset 12px 12px 25px -5px rgba(0,0,0,1);
-    //box-shadow: inset 12px 12px 25px -5px rgba(0,0,0,1);
+    //border: 1px solid #181818;
     box-shadow: inset 0px 0px 10px 4px rgba(0,0,0,0.6);
     width: 35%;
 }
@@ -133,10 +118,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    //border: 3px solid #181818;
-    -webkit-box-shadow: inset -12px -12px 25px -5px rgba(0,0,0,1);
-    -moz-box-shadow: inset -12px -12px 25px -5px rgba(0,0,0,1);
-    //box-shadow: inset -12px -12px 25px -5px rgba(0,0,0,1);
+    //border: 1px solid #181818;
     box-shadow: inset 0px 0px 10px 4px rgba(0,0,0,0.6);
     width: 35%;
 }
@@ -182,7 +164,6 @@
 }
 
 @media (max-width: 768px){
-    
     .about-h2{
         font-size: 1.2em;
     }
