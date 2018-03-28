@@ -138,7 +138,7 @@
         font-size: 1.5em;
         font-weight: 400;
         text-align: center;
-        margin: 0.5em 33%;
+        margin: 2em 33%;
         padding: 0.5em 0;
         border-top: 5px solid #4F5EC1;
         border-bottom: 5px solid #4F5EC1;
@@ -182,7 +182,7 @@
     align-items: center;
     flex-direction: column;
     h2{
-        font-size: 3em;
+        font-size: 2em;
         text-align: center;
         padding: 0.2em;
         margin: 0 auto;
@@ -191,19 +191,19 @@
         font-weight: 200;
         border-top: 3px solid #4F5EC1;
         border-bottom: 3px solid #4F5EC1;
-        background: rgba(146, 65, 168, 0.7);
-        box-shadow: inset 0px 0px 10px 4px rgba(0,0,0,0.6);
+        background: rgba(146, 65, 168, 0.8);
+        //box-shadow: inset 0px 0px 10px 4px rgba(0,0,0,0.6);
     }
     p{
         color: #f3f3f3;
-        background: rgba(24, 24, 24, 0.8);
+        background: rgba(24, 24, 24, 0.9);
         font-weight: 200;
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding: 1em 5%;
         margin: 2em auto;
         max-width: 1000px;
         line-height: 1.8em;
-        border: 3px solid #9241A8;
+        //border: 3px solid #9241A8;
     }
 }
 .modal-close{
@@ -246,7 +246,7 @@
     background-image: url(../images/younger-bg.jpg);
 }
 .short-bg{
-    background-image: url(../images/short-bg.jpg);
+    background-image: url(../images/short-yoga.jpg);
 }
 .therapy-bg{
     background-image: url(../images/therapy-bg.jpg);
@@ -258,7 +258,7 @@
 @media (max-width:1000px){
     .modal{
         h1{
-            margin: 0.5em 20%;
+            margin: 2em 20%;
         }
     }
     .classes-box{
@@ -297,7 +297,7 @@
     .modal{
         h1{
             font-size: 1.2em;
-            margin: 0.8em 15%;
+            margin: 2em 15%;
             padding: 0.3em 0;
         }
         p{

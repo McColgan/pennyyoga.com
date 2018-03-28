@@ -47,7 +47,7 @@
     top: 5em;
     height: 0px;
     overflow: hidden;
-    //border-bottom: 2px solid #080808;
+    border-bottom: 1px solid #080808;
     border-left: 1px solid #080808;
     box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     ul{
@@ -202,6 +202,7 @@
                     text-align: center;
                     transition: 0.5s;
                     //border-radius: 3px;
+                    text-transform: uppercase;
                 }
             }
         }

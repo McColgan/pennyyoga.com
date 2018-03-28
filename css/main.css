@@ -112,6 +112,7 @@ html, body {
   top: 5em;
   height: 0px;
   overflow: hidden;
+  border-bottom: 1px solid #080808;
   border-left: 1px solid #080808;
   box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5); }
   .site-nav ul {
@@ -242,7 +243,8 @@ html, body {
           height: 5em;
           width: 5em;
           text-align: center;
-          transition: 0.5s; }
+          transition: 0.5s;
+          text-transform: uppercase; }
   #nav-icon {
     display: none; } }
 
@@ -666,7 +668,6 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.6);
   width: 35%; }
 
 .profile-image {
@@ -674,7 +675,6 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.6);
   width: 35%; }
 
 @media (max-width: 1100px) {
@@ -871,7 +871,7 @@ video {
     font-size: 1.5em;
     font-weight: 400;
     text-align: center;
-    margin: 0.5em 33%;
+    margin: 2em 33%;
     padding: 0.5em 0;
     border-top: 5px solid #4F5EC1;
     border-bottom: 5px solid #4F5EC1;
@@ -913,7 +913,7 @@ video {
   align-items: center;
   flex-direction: column; }
   .testimonial h2 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     padding: 0.2em;
     margin: 0 auto;
@@ -922,18 +922,16 @@ video {
     font-weight: 200;
     border-top: 3px solid #4F5EC1;
     border-bottom: 3px solid #4F5EC1;
-    background: rgba(146, 65, 168, 0.7);
-    box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.6); }
+    background: rgba(146, 65, 168, 0.8); }
   .testimonial p {
     color: #f3f3f3;
-    background: rgba(24, 24, 24, 0.8);
+    background: rgba(24, 24, 24, 0.9);
     font-weight: 200;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 1em 5%;
     margin: 2em auto;
     max-width: 1000px;
-    line-height: 1.8em;
-    border: 3px solid #9241A8; }
+    line-height: 1.8em; }
 
 .modal-close {
   position: absolute;
@@ -971,7 +969,7 @@ video {
   background-image: url(../images/younger-bg.jpg); }
 
 .short-bg {
-  background-image: url(../images/short-bg.jpg); }
+  background-image: url(../images/short-yoga.jpg); }
 
 .therapy-bg {
   background-image: url(../images/therapy-bg.jpg); }
@@ -981,7 +979,7 @@ video {
 
 @media (max-width: 1000px) {
   .modal h1 {
-    margin: 0.5em 20%; }
+    margin: 2em 20%; }
   .classes-box {
     width: 45%;
     align-items: flex-start; } }
@@ -1008,7 +1006,7 @@ video {
     top: 2em; }
   .modal h1 {
     font-size: 1.2em;
-    margin: 0.8em 15%;
+    margin: 2em 15%;
     padding: 0.3em 0; }
   .modal p {
     font-size: 1em;
@@ -1105,6 +1103,11 @@ video {
     margin: 2em auto 1em auto;
     font-size: 2em;
     font-weight: 500; }
+  .timetable p {
+    font-size: 0.9em;
+    text-align: center;
+    width: 80%;
+    margin: 3em auto 0 auto; }
 
 .timetable-flexbox {
   position: relative;
@@ -1418,6 +1421,9 @@ video {
   padding: 0;
   margin: 4em auto;
   font-weight: 500; }
+  .blog-link a {
+    color: #9241a8;
+    text-decoration: none; }
 
 @media (max-width: 1110px) {
   .blog-post-outer {
@@ -1508,13 +1514,15 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    .contact-flexbox .contact-box p {
+    .contact-flexbox .contact-box p, .contact-flexbox .contact-box a {
       font-size: 1.2em;
       padding: 0;
-      margin: 0 auto;
+      margin: 0.2em auto 0 auto;
       text-align: center;
       font-weight: 200;
-      line-height: 1.5em; }
+      line-height: 1.5em;
+      color: #f3f3f3;
+      text-decoration: none; }
 
 .contact-icon {
   display: block;
@@ -1548,7 +1556,7 @@ video {
     .contact-flexbox .contact-box {
       width: 100%;
       height: 160px; }
-      .contact-flexbox .contact-box p {
+      .contact-flexbox .contact-box p, .contact-flexbox .contact-box a {
         font-size: 1.1em; }
   .contact-icon {
     margin: 1em auto; } }

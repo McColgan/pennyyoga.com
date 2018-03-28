@@ -92,6 +92,10 @@
     padding: 0;
     margin: 4em auto;
     font-weight: 500;
+    a{
+        color: rgba(146, 65, 168, 1);
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 1110px){
