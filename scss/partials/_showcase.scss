@@ -11,16 +11,15 @@
     //background-attachment: fixed;
     overflow: hidden;
 }
-video{
+.showcase-bg{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100vw;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/showcase-bg.png);
+  background-size: 1920px 1078px;
+  background-position: bottom -60px center;
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
 }
 .showcase-text{
   z-index: 2;
@@ -41,9 +40,9 @@ video{
     top: 0.2em;
     font-weight: 200;
     color: #f3f3f3;
-    text-shadow: 2px 4px 2px #9241A8;
-    animation: 0.8s ease-in 0.75s normal forwards 1 fadein;
-    -webkit-animation: 0.8s ease-in 0.75s normal forwards 1 fadein;
+    text-shadow: 2px 4px 5px #9241A8;
+    animation: 0.8s ease-in 0.5s normal forwards 1 fadein;
+    -webkit-animation: 0.8s ease-in 0.5s normal forwards 1 fadein;
     opacity: 0;
 }
 .with-h1{
@@ -54,9 +53,9 @@ video{
     top: 3.7em;
     font-weight: 200;
     color: #f3f3f3;
-    text-shadow: 2px 4px 2px #4F5EC1;
-    animation: 0.8s ease-in 2s normal forwards 1 fadein;
-    -webkit-animation: 0.8s ease-in 2s normal forwards 1 fadein;
+    text-shadow: 2px 4px 5px #4F5EC1;
+    animation: 0.8s ease-in 1,5s normal forwards 1 fadein;
+    -webkit-animation: 0.8s ease-in 1.5s normal forwards 1 fadein;
     opacity: 0;
 }
 .penny-h1{
@@ -68,8 +67,8 @@ video{
     font-weight: 700;
     color: #9241A8;
     //text-shadow: 0px 2px 5px #f3f3f3;
-    animation: 0.8s ease-in 2.5s normal forwards 1 fadein;
-    -webkit-animation: 0.8s ease-in 2.5s normal forwards 1 fadein;
+    animation: 0.8s ease-in 2s normal forwards 1 fadein;
+    -webkit-animation: 0.8s ease-in 2s normal forwards 1 fadein;
     opacity: 0;
 }
 .yoga-h1{
@@ -81,8 +80,8 @@ video{
     top: 0.2em;
     color: #4F5EC1;
     //text-shadow: 0px 2px 5px #f3f3f3;
-    animation: 0.8s ease-in 1.5s normal forwards 1 fadein;
-    -webkit-animation: 0.8s ease-in 1.5s normal forwards 1 fadein;
+    animation: 0.8s ease-in 1s normal forwards 1 fadein;
+    -webkit-animation: 0.8s ease-in 1s normal forwards 1 fadein;
     opacity: 0;
 }
 @keyframes fadein{
@@ -130,21 +129,18 @@ video{
     }
   }
   @media (max-width: 1100px){
-    /* .showcase-outer{
-      background-image: url(../images/showcase-bg-min.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      z-index: 1;
-    } */
-    video{
-      transform: translate(-30%, -50%);
+    .showcase-bg{
+      background-position: bottom -100px left -300px;
+      background-size: 1700px 953px;
     }
   }
   @media (max-width: 768px){
     .showcase-outer{
       height: 100vh;
+    }
+    .showcase-bg{
+      background-position: bottom -100px left -300px;
+      //background-size: 1300px 729px;
     }
     .choose-h1{
       font-size: 3em;
@@ -173,8 +169,8 @@ video{
   }
 
   @media (max-width: 580px){
-    video{
-      transform: translate(-25%, -50%);
+    .showcase-bg{
+      background-position: bottom -100px left -400px;
     }
     .choose-h1{
       font-size: 2.5em;

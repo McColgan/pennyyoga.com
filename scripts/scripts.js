@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(window).scroll(function(){
-    //parallax();
+    parallax();
     linkSwitching();
   });
 
@@ -35,6 +35,10 @@ $(document).ready(function(){
         $(this).parent().siblings().removeClass('activelink');
       }
     });
+  }
+  function parallax(){
+    var wScroll = $(window).scrollTop();
+    $('.showcase-bg').css('top',(wScroll * 0.04)+'em');
   }
 
 });

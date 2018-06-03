@@ -21,8 +21,8 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 5.5em;
+    justify-content: center;
+    width: auto;
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -47,7 +47,7 @@
 }
 .up-arrow{
     position: relative;
-    top: 1em;
+    top: 0.5em;
     width: 64px;
     height: 64px;
     background-image: url(../images/up-arrow.png);
