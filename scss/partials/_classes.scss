@@ -202,13 +202,14 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
     }
     p{
         color: #272727;
         //background: rgba(146, 65, 168, 1);
         font-weight: 200;
         font-size: 1em;
-        padding: 2em;
+        padding: 4em 2em;
         margin: 0 auto;
         width: auto;
         line-height: 1.8em;
@@ -311,19 +312,11 @@
         }
         p{
             font-size: 1em;
-            padding: 1em 5%;
+            padding: 3em 5% 2em 5%;
         }
         h2{
             font-size: 1.5em;
             font-size: 500;
-        }
-    }
-    .testimonial{
-        //height: auto;
-        //padding: 2em;
-        p{
-            margin: 0 auto;
-            font-size: 1em;
         }
     }
     .modal-close{

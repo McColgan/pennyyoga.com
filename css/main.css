@@ -572,7 +572,7 @@ html, body {
   font-weight: 500;
   position: relative;
   margin: 0 auto;
-  padding: 1em 0 0 0;
+  padding: 2em 0 0 0;
   text-align: center;
   color: #4b4b4b; }
 
@@ -589,16 +589,13 @@ html, body {
   background-position: center; }
 
 .about-h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   width: 85%;
   position: relative;
   margin: 2em auto;
   padding: 0.5em 0 1em 0;
   text-align: center;
   font-weight: 300;
-  max-width: 1000px;
-  border-top: 5px solid #4F5EC1;
-  border-bottom: 5px solid #4F5EC1;
   color: #9241a8; }
 
 .about-h3 {
@@ -923,12 +920,13 @@ html, body {
     margin: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); }
   .testimonial-outer p {
     color: #272727;
     font-weight: 200;
     font-size: 1em;
-    padding: 2em;
+    padding: 4em 2em;
     margin: 0 auto;
     width: auto;
     line-height: 1.8em;
@@ -1011,13 +1009,10 @@ html, body {
     padding: 0.3em 0; }
   .modal p {
     font-size: 1em;
-    padding: 1em 5%; }
+    padding: 3em 5% 2em 5%; }
   .modal h2 {
     font-size: 1.5em;
     font-size: 500; }
-  .testimonial p {
-    margin: 0 auto;
-    font-size: 1em; }
   .modal-close {
     height: 32px;
     width: 32px;
