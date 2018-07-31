@@ -775,7 +775,7 @@ html, body {
   margin: 1em auto;
   padding: 0;
   border-radius: 3px;
-  
+  background-image: url(../images/yoga-image2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -824,20 +824,17 @@ html, body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 200;
   cursor: pointer;
   color: #f3f3f3;
   background: none;
-  padding: 0.5em 0.3em;
+  padding: 0.5em 0.8em;
   border: 2px solid #f3f3f3;
-  border-radius: 30px;
-  transition: 0.3s ease-in;
-  background: #3a3a3a; }
+  border-radius: 5px;
+  transition: 0.3s ease-in; }
   .view-more-button:hover {
-    color: #181818;
-    background: #f3f3f3;
-    border-color: #3a3a3a;
-    font-weight: 300; }
+    color: #f3f3f3;
+    background: rgba(243, 243, 243, 0.4); }
 
 .yoga-mummys {
   background-image: url(../images/yoga-image2.jpg); }
@@ -898,36 +895,44 @@ html, body {
   height: 128px;
   margin: 2em auto;
   padding: 0;
-  background-image: url(../images/mat-icon-b.png);
   background-size: 128px 128px;
   background-repeat: no-repeat;
   background-position: center; }
 
+.yoga-icon-b {
+  background-image: url(../images/mat-icon-b.png); }
+
 .yoga-icon-p {
   background-image: url(../images/mat-icon-p.png); }
 
-.testimonial {
+.testimonial-outer {
+  position: relative;
   width: 100%;
   max-width: 1000px;
   height: auto;
-  min-height: 30em;
-  margin: 0 auto;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 3em auto;
+  justify-content: space-between;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  .testimonial p {
-    color: #f3f3f3;
-    background: rgba(146, 65, 168, 0.85);
-    font-weight: 300;
-    font-size: 1.1em;
-    padding: 2em 3em;
-    margin: 2em auto;
-    max-width: 500px;
-    line-height: 1.8em; }
+  flex-direction: column; }
+  .testimonial-outer .testimonial-img {
+    display: block;
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .testimonial-outer p {
+    color: #272727;
+    font-weight: 200;
+    font-size: 1em;
+    padding: 2em;
+    margin: 0 auto;
+    width: auto;
+    line-height: 1.8em;
+    text-align: initial; }
 
 .modal-close {
   position: absolute;
