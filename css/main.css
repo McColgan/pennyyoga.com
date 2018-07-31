@@ -1106,7 +1106,7 @@ html, body {
 .timetable-flexbox {
   position: relative;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1000px;
   height: auto;
   padding: 0;
   margin: 0 auto;
