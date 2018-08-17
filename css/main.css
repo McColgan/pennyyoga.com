@@ -65,7 +65,7 @@ html, body {
   background-image: url(../images/twitter1.png);
   transition: all ease-out 500ms; }
 
-.header-container {
+#header-container {
   top: 0;
   margin: 0;
   padding: 0;
@@ -77,7 +77,7 @@ html, body {
   border-bottom: 2px solid #080808;
   font-family: 'Poppins', sans-serif;
   box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75); }
-  .header-container h1 {
+  #header-container h1 {
     font-size: 1.8em;
     font-weight: 300;
     display: block;
@@ -201,11 +201,12 @@ html, body {
   z-index: 1; }
 
 @media (min-width: 1000px) {
-  .header-container {
-    height: 5em;
+  #header-container {
+    height: 80px;
     padding: 0;
     margin: 0;
-    border-bottom: none; }
+    border-bottom: none;
+    transition: 500ms ease-in-out; }
   .social-media-header {
     right: 0; }
   .site-nav a:hover {
@@ -249,7 +250,7 @@ html, body {
     display: none; } }
 
 @media (max-width: 620px) {
-  .header-container h1 {
+  #header-container h1 {
     font-size: 1.4em;
     margin: 1.2em 0 0 0.5em; } }
 
@@ -1283,7 +1284,7 @@ html, body {
   padding: 0;
   margin: 0;
   background-image: url(../images/yoga-bg-min2.png);
-  background-position: top 5em center;
+  background-position: top center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;

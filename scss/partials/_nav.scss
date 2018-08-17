@@ -1,4 +1,4 @@
-.header-container{
+#header-container{
     top: 0;
     margin: 0;
     padding: 0;
@@ -143,13 +143,14 @@
     z-index: 1;
 }
 
-
+// Desktop Header
 @media (min-width: 1000px){
-    .header-container{
-        height: 5em;
+    #header-container{
+        height: 80px;
         padding: 0;
         margin: 0;
         border-bottom: none;
+        transition: 500ms ease-in-out;
     }
     .social-media-header{
         right: 0;
@@ -202,7 +203,7 @@
 }
 
 @media (max-width: 620px){
-    .header-container{
+    #header-container{
         h1{
             font-size: 1.4em;
             margin: 1.2em 0 0 0.5em;
